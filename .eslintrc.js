@@ -20,9 +20,6 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
-    'no-undef': 'off',
-    'no-restricted-globals': ['off', 'event', 'fdescribe'],
   },
   plugins: ['prettier'],
-  noInlineConfig: true,
 };
