@@ -304,18 +304,8 @@ function getSumOfDigits(num) {
  *   16  => true
  *   15  => false
  */
-function isPowerOfTwo(num) {
-  const str = num.toString(2);
-  let pos = -1;
-  let result = 0;
-  while (true) {
-    const foundPos = str.indexOf('1', pos);
-    if (foundPos === -1) break;
-
-    result += 1;
-    pos = foundPos + 1;
-  }
-  return result === 1;
+function isPowerOfTwo(/* num */) {
+  throw new Error('Not implemented');
 }
 
 /**
