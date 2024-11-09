@@ -50,8 +50,7 @@ function getCircleCircumference(radius) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  // eslint-disable-next-line no-undef
-  return (BigInt(value1) + BigInt(value2)) / BigInt(2);
+  return value1 / 2 + value2 / 2;
 }
 
 /**
